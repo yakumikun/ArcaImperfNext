@@ -1,0 +1,46 @@
+.container {
+  position: absolute;
+  width: 600%;
+  height: 200%;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  z-index: 40;
+  width: 100%;
+  height: 100%;
+  animation:
+    wave-animation 20s linear infinite,
+    wave-rise 2s 6s ease-in-out forwards,
+    wave-drop 2s 8s ease-in-out forwards;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: translate(-38%, 25%);
+  }
+
+  100% {
+    transform: translate(-100%, 25%);
+  }
+}
+
+@keyframes wave-rise {
+  from {
+    top: 0%;
+  }
+
+  to {
+    top: -50%;
+  }
+}
+
+/* @keyframes wave-drop {
+    from {
+        top: -50%;
+    }
+    to {
+        top: 100%;
+    }
+} */

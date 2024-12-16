@@ -1,0 +1,46 @@
+.member1-info {
+  z-index: 20;
+  padding: 20px;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 50px;
+  color: white;
+  background-color: rgb(0 0 0 / 50%);
+  border-radius: 10px;
+  transform: translate(300px, 50px);
+}
+
+.member2-info {
+  z-index: 20;
+  padding: 20px;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 50px;
+  color: white;
+  background-color: rgb(0 0 0 / 50%);
+  border-radius: 10px;
+  transform: translate(-240px, 50px);
+}
+
+.member3-info {
+  z-index: 20;
+  padding: 20px;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 50px;
+  color: white;
+  background-color: rgb(0 0 0 / 50%);
+  border-radius: 10px;
+  transform: translate(-150px, 50px);
+}
+
+.icons li {
+  list-style: none;
+}
+
+.icons li:not(:first-child) {
+  margin-top: 32px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 32px;
+}

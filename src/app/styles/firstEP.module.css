@@ -1,0 +1,22 @@
+.first-ep-container {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 100vh;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+.first-ep-container h1 {
+  font-size: x-large;
+}
+
+.ep-info {
+  padding-top: 1;
+  padding-bottom: 20;
+  background-color: rgb(255 255 255 / 80%);
+}
+
+.first-ep-container li {
+  margin-top: 10;
+  border-bottom: rgb(0 0 0 / 100%);
+}

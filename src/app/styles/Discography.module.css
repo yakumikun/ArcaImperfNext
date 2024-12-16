@@ -1,0 +1,12 @@
+.discography-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+.discography-container h1 {
+  font-size: x-large;
+}
