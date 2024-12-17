@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '@/app/styles/Discography.module.css';
-import ScrollRevealContainer from '../components/ScrollRevealContainer';
+import ScrollRevealContainer from '@/app/components/ScrollRevealContainer';
 
 export default function Discography() {
   return (
