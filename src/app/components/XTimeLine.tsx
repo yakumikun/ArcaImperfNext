@@ -1,8 +1,8 @@
-'use client';
+"use client"
 
 import React, { useEffect } from 'react';
 
-const XTimeline = (window: any) => {
+const XTimeline = () => {
   useEffect(() => {
     // X ウィジェットを再ロード（初回マウント時）
     if (typeof window !== 'undefined' && (window as any).twttr?.widgets) {
