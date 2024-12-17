@@ -1,11 +1,11 @@
 'use client';
 
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { FC, useRef, useEffect } from 'react';
 import scrollReveal from 'scrollreveal';
 
 interface ScrollRevealContainerProps {
-  children: any;
+  children: ReactNode;
   move?: string;
 }
 

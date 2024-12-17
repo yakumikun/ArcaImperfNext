@@ -4,7 +4,7 @@ import styles from '@/app/styles/HomePage.module.css';
 import ScrollRevealContainer from '../components/ScrollRevealContainer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faSpotify, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import XTimeline from '../components/XTimeLine';
+import TwitterWidgets from '@/app/components/TwitterWidgets';
 
 export default function HomePage() {
   return (
@@ -70,7 +70,7 @@ export default function HomePage() {
         </ScrollRevealContainer>
         <ScrollRevealContainer move="right">
           <div className="ml-10 mb-20">
-            <XTimeline />
+            <TwitterWidgets />
           </div>
         </ScrollRevealContainer>
       </div>

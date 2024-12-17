@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
-import { gsap } from 'gsap';
+import gsap from 'gsap';
 import styles from '@/app/styles/Logo.module.css';
 
 const letters = [

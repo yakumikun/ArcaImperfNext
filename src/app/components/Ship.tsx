@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
+import gsap from 'gsap';
 import Image from 'next/image';
 import styles from '@/app/styles/Ship.module.css';
 
