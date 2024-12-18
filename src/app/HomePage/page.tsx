@@ -9,7 +9,7 @@ import TwitterWidgets from '@/app/components/TwitterWidgets';
 export default function HomePage() {
   return (
     <div className="w-screen h-full">
-      <div className="flex items-center justify-center pt-32">
+      <div className="pt-8 flex items-center justify-center xl:pt-32">
         <ScrollRevealContainer move="left">
           <div className={styles['member1-info']}>
             <p>Gt. / Vo.</p>
@@ -22,7 +22,7 @@ export default function HomePage() {
           </ScrollRevealContainer>
         </div>
       </div>
-      <div className="flex items-center justify-center pt-48">
+      <div className="pt-12 flex items-center justify-center xl:pt-48">
         <div>
           <ScrollRevealContainer move="top">
             <Image src="/member/member2.svg" alt="member2" width={760} height={450} />
@@ -35,7 +35,7 @@ export default function HomePage() {
           </div>
         </ScrollRevealContainer>
       </div>
-      <div className="flex items-center justify-center pt-48">
+      <div className="pt-12 flex items-center justify-center xl:pt-48">
         <div>
           <ScrollRevealContainer move="left">
             <Image src="/member/member3.svg" alt="member3" width={760} height={450} />
@@ -48,7 +48,7 @@ export default function HomePage() {
           </div>
         </ScrollRevealContainer>
       </div>
-      <div className="flex justify-center items-center pt-48">
+      <div className="pt-28 flex justify-center items-center xl:pt-48">
         <ScrollRevealContainer move="left">
           <div className={styles.icons}>
             <li>
